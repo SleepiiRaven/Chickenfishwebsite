@@ -2,7 +2,7 @@ let ui = new firebaseui.auth.AuthUI(auth);
 let login = document.querySelector('.login');
 
 auth.onAuthStateChanged((user) => {
-    if (user && admins.includes(user.displayName)) {
+    if (user && admins.includes(user.email)) {
         console.log(user.displayName);
         login.style.display = "none";
     } else if (user) {
