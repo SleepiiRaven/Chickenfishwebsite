@@ -1,7 +1,7 @@
 let ul = document.querySelector('.links-container');
 let admins = [
     "SleepingRaven",
-    "Chickenfish1222"
+    "chickenfish1222@gmail.com"
 ]
 
 auth.onAuthStateChanged((user) => {
