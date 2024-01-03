@@ -1,0 +1,20 @@
+{
+  "name": "bloggin-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "overrides": {
+    "semver": "~7.5.2"
+  },
+  "dependencies": {
+    "express-fileupload": "^1.2.1",
+    "express.js": "^1.0.0",
+    "firebase": "^10.7.1",
+    "nodemon": "^2.0.12"
+  }
+}
